@@ -11,6 +11,7 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 1. 1. Read n and the augmented matrix A.
 2. For each pivot row i:
  * Normalize the row by dividing by the pivot
+  $$A[i][i]$$
  * Eliminate entries below the pivot using   
   $$Row_k =Row_k w-A[K][i]XRow_i$$
 
